@@ -127,19 +127,19 @@ enum ovn_stage {
     PIPELINE_STAGE(SWITCH, IN,  QOS_METER,     10, "ls_in_qos_meter")     \
     PIPELINE_STAGE(SWITCH, IN,  LB,            11, "ls_in_lb")            \
     PIPELINE_STAGE(SWITCH, IN,  ACL_AFTER_LB,  12, "ls_in_acl_after_lb")  \
-    PIPELINE_STAGE(SWITCH, IN,  AFTER_LB, 14, "ls_in_after_lb") \
-    PIPELINE_STAGE(SWITCH, IN,  STATEFUL, 15, "ls_in_stateful") \
-    PIPELINE_STAGE(SWITCH, IN,  PRE_HAIRPIN, 16, "ls_in_pre_hairpin") \
-    PIPELINE_STAGE(SWITCH, IN,  NAT_HAIRPIN, 17, "ls_in_nat_hairpin") \
-    PIPELINE_STAGE(SWITCH, IN,  HAIRPIN, 18, "ls_in_hairpin") \
-    PIPELINE_STAGE(SWITCH, IN,  ARP_ND_RSP, 19, "ls_in_arp_rsp") \
-    PIPELINE_STAGE(SWITCH, IN,  DHCP_OPTIONS, 20, "ls_in_dhcp_options") \
-    PIPELINE_STAGE(SWITCH, IN,  DHCP_RESPONSE, 21, "ls_in_dhcp_response") \
-    PIPELINE_STAGE(SWITCH, IN,  DNS_LOOKUP, 22, "ls_in_dns_lookup") \
-    PIPELINE_STAGE(SWITCH, IN,  DNS_RESPONSE, 23, "ls_in_dns_response") \
-    PIPELINE_STAGE(SWITCH, IN,  EXTERNAL_PORT, 24, "ls_in_external_port") \
-    PIPELINE_STAGE(SWITCH, IN,  L2_LKUP, 25, "ls_in_l2_lkup") \
-    PIPELINE_STAGE(SWITCH, IN,  L2_UNKNOWN, 26, "ls_in_l2_unknown") \
+    PIPELINE_STAGE(SWITCH, IN,  AFTER_LB, 13, "ls_in_after_lb") \
+    PIPELINE_STAGE(SWITCH, IN,  STATEFUL, 14, "ls_in_stateful") \
+    PIPELINE_STAGE(SWITCH, IN,  PRE_HAIRPIN, 15, "ls_in_pre_hairpin") \
+    PIPELINE_STAGE(SWITCH, IN,  NAT_HAIRPIN, 16, "ls_in_nat_hairpin") \
+    PIPELINE_STAGE(SWITCH, IN,  HAIRPIN, 17, "ls_in_hairpin") \
+    PIPELINE_STAGE(SWITCH, IN,  ARP_ND_RSP, 18, "ls_in_arp_rsp") \
+    PIPELINE_STAGE(SWITCH, IN,  DHCP_OPTIONS, 19, "ls_in_dhcp_options") \
+    PIPELINE_STAGE(SWITCH, IN,  DHCP_RESPONSE, 20, "ls_in_dhcp_response") \
+    PIPELINE_STAGE(SWITCH, IN,  DNS_LOOKUP, 21, "ls_in_dns_lookup") \
+    PIPELINE_STAGE(SWITCH, IN,  DNS_RESPONSE, 22, "ls_in_dns_response") \
+    PIPELINE_STAGE(SWITCH, IN,  EXTERNAL_PORT, 23, "ls_in_external_port") \
+    PIPELINE_STAGE(SWITCH, IN,  L2_LKUP, 24, "ls_in_l2_lkup") \
+    PIPELINE_STAGE(SWITCH, IN,  L2_UNKNOWN, 25, "ls_in_l2_unknown") \
                                                                           \
     /* Logical switch egress stages. */                                   \
     PIPELINE_STAGE(SWITCH, OUT, PRE_LB,       0, "ls_out_pre_lb")         \
