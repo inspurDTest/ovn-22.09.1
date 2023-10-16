@@ -7180,6 +7180,7 @@ build_stateful(struct ovn_datapath *od,
         ovn_lflow_add(lflows, od, S_SWITCH_IN_AFTER_LB, 100,
                       REGBIT_CONNTRACK_NAT" == 0", "next;");
     }
+    ovn_lflow_add(lflows, od, S_SWITCH_IN_AFTER_LB, 0, "1", "next;");
     ovn_lflow_add(lflows, od, S_SWITCH_IN_STATEFUL, 0, "1", "next;");
     ovn_lflow_add(lflows, od, S_SWITCH_OUT_STATEFUL, 0, "1", "next;");
 
